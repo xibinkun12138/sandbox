@@ -10,6 +10,10 @@
 
 目前已兼容 Android 9.0 ～ 15 , 其他系统版本可以使用，但不太稳定
 
+## 交流群
+
+Telegram[交流群跳转](https://t.me/mo_svc)
+
 ## 应用市场
 
 1. 应用宝[下载地址](https://sj.qq.com/appdetail/com.hello.miheapp)
