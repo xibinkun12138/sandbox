@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="common_text_size_title_01">20sp</dimen>
+  <dimen name="common_text_size_title_02">18sp</dimen>
+  <dimen name="common_text_size_caption_01">12sp</dimen>
+  <dimen name="common_text_size_caption_02">11sp</dimen>
+
+  <dimen name="common_normal_rect_radius">10dp</dimen>
+</resources>

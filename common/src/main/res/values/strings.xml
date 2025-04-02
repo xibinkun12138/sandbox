@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+  <string name="LANG_FULL_STOP">.</string>
+  <string name="LANG_SPACE"> </string>
+  <string name="GENERAL_CHOOSE_APP">Choose application</string>
+</resources>

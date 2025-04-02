@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:clipChildren="false"
+  android:clipToPadding="false"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:paddingTop="16dp">
+
+  <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+      android:id="@+id/icon"
+      android:layout_width="48dp"
+      android:layout_height="48dp" />
+
+    <TextView
+      android:id="@+id/cornerLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="top|right"
+      android:layout_marginTop="-5dp"
+      android:layout_marginRight="-8dp"
+      android:background="@drawable/shape_home_icon_label"
+      android:paddingLeft="5dp"
+      android:paddingRight="5dp"
+      android:text="双开"
+      android:textColor="@color/white"
+      android:textSize="10sp"
+      android:textStyle="bold"
+      android:visibility="visible" />
+  </FrameLayout>
+
+  <TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/white_60_opacity"
+    android:textSize="12sp" />
+
+
+</LinearLayout>

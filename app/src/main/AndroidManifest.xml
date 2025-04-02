@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="top.niunaijun.blackboxa">
+  <!-- Android 11 需要 -->
+  <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+  <application
+    android:name=".app.App"
+    android:allowBackup="true"
+    android:icon="${APP_ICON}"
+    android:label="@string/app_name"
+    android:networkSecurityConfig="@xml/network_security_config"
+    android:requestLegacyExternalStorage="true"
+    android:roundIcon="${APP_ROUND_ICON}"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.SandBox"
+    tools:replace="android:allowBackup"
+    tools:targetApi="n">
+    <activity
+      android:name="com.hello.sandbox.ui.screen.ScreenOrientationActivity"
+      android:exported="false"
+      android:screenOrientation="portrait" />
+
+    <service
+      android:name="com.hello.sandbox.ui.screen.ScreenOrientationService"
+      android:enabled="true"
+      android:exported="true"
+      android:process="@string/black_box_service_name" />
+
+    <activity
+      android:name="com.hello.sandbox.ui.appIcon.ChangeAppIconActivity"
+      android:exported="false"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name="com.hello.sandbox.ui.password.SettingPasswordActivity"
+      android:exported="false"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".view.fake.FollowMyLocationOverlay"
+      android:exported="false"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".view.setting.SettingActivity"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".view.gms.GmsManagerActivity"
+      android:screenOrientation="portrait" /> <!-- <activity -->
+    <!-- android:name=".view.main.WelcomeActivity" -->
+    <!-- android:launchMode="singleTop" -->
+    <!-- android:theme="@style/WelcomeTheme"> -->
+    <!-- <intent-filter> -->
+    <!-- <action android:name="android.intent.action.MAIN" /> -->
+    <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+    <!-- </intent-filter> -->
+    <!-- </activity> -->
+    <activity
+      android:name=".view.list.ListActivity"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".view.fake.FakeManagerActivity"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".view.xp.XpActivity"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".view.main.ShortcutActivity"
+      android:excludeFromRecents="true"
+      android:exported="true"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".view.main.MainActivity"
+      android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:name="com.hello.sandbox.ui.splash.SplashAct"
+      android:launchMode="singleTask"
+      android:screenOrientation="portrait"
+      android:theme="@style/WelcomeTheme">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:name="com.hello.sandbox.ui.appIcon.FakeSplashAct"
+      android:enabled="false"
+      android:icon="@drawable/icon_fake"
+      android:label="计算器"
+      android:launchMode="singleTop"
+      android:roundIcon="@drawable/icon_fake"
+      android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:name="com.hello.sandbox.ui.splash.LoginAct"
+      android:launchMode="singleTop"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name="com.hello.sandbox.ui.splash.FakeHomeAct"
+      android:launchMode="singleTop"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name="com.hello.sandbox.ui.home.HomeAct"
+      android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:name="com.hello.sandbox.ui.about.AboutAct"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name="com.hello.sandbox.ui.WebviewAct"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name="com.hello.sandbox.ui.search.SearchListActivity"
+      android:screenOrientation="portrait" />
+
+
+    <!-- The `file://` URI is not allowed to expose to other apps since android-N -->
+    <activity
+      android:name="com.hello.sandbox.ui.search.SearchListActivity"
+      android:screenOrientation="portrait" /> <!-- The `file://` URI is not allowed to expose to other apps since android-N -->
+    <provider
+      android:name="androidx.core.content.FileProvider"
+      android:authorities="files.${applicationId}"
+      android:exported="false"
+      android:grantUriPermissions="true">
+      <meta-data
+        android:name="android.support.FILE_PROVIDER_PATHS"
+        android:resource="@xml/provider_paths" />
+    </provider>
+
+    <activity
+      android:name="com.hello.sandbox.ui.cala.CalcActivity"
+      android:exported="false"
+      android:screenOrientation="portrait" />
+
+    <activity
+      android:name="com.immomo.autotracker.android.sdk.dialog.SchemeActivity"
+      android:configChanges="orientation|screenSize"
+      android:exported="true"
+      android:launchMode="singleTask">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+
+        <data
+          android:host="report.com"
+          android:scheme="vboxapp" />
+      </intent-filter>
+    </activity>
+
+  </application>
+
+</manifest>

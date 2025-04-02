@@ -1,0 +1,69 @@
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=375,user-scalable=no,viewport-fit=cover"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="preconnect" href="https://h5-static.tancdn.com" crossorigin><link rel="preconnect" href="https://static.tancdn.com" crossorigin><link rel="dns-prefetch" href="https://fe-static.tancdn.com" crossorigin><link rel="dns-prefetch" href="https://core.tantanapp.com" crossorigin><title>常见问题</title><style>html {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-overflow-scrolling: touch;
+      font-family: PingFangSC-Regular, "PingFang SC", arial, tahoma,
+        "Microsoft Yahei", "\5b8b\4f53", sans-serif;
+    }</style><link href="./static/tool-question.57cfb5d0.css?_bid=1003906" rel="stylesheet"><script>function check_webp_feature(feature, callback) {
+              var kTestImages = {
+                lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
+                lossless: "UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",
+                alpha: "UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",
+                animation: "UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"
+              };
+              var img = new Image();
+              img.onload = function () {
+                var result = (img.width > 0) && (img.height > 0);
+                callback(result);
+              };
+              img.onerror = function () {
+                callback(false);
+              };
+              img.src = "data:image/webp;base64," + kTestImages[feature];
+            }
+            check_webp_feature('lossy', function (isWebpSupported) {
+              if (!isWebpSupported) {
+                var htmlNode = document.querySelector('html')
+                htmlNode.setAttribute('class', 'webp_not_supported')
+              }
+            })</script><script>window.onload = function () {
+              var ua = (navigator.userAgent || '').toLowerCase()
+              var isIOS = /ipad|iphone|ipod|ios/.test(ua)
+              if (!isIOS) return;
+
+              // 禁止双击缩放
+              var lastTouchEnd;
+
+              document.addEventListener('touchend', function (event) {
+                var now = Date.now();
+                if (now - lastTouchEnd <= 300) {
+                  event.preventDefault();
+                }
+                lastTouchEnd = now;
+              }, false);
+              // 阻止双指放大, 多个手指触摸表面时会触发该事件,
+              document.addEventListener('gesturestart', function (event) {
+                event.preventDefault();
+              });
+            }
+
+            function doWhenGetToken() {
+            }</script></head><body><noscript><strong>We're sorry but 常见问题 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script defer="defer" src="./static/vueBase.1d2eecb9.js"></script><script defer="defer" src="./static/vendors.1dd75b49.js"></script><script defer="defer" src="./static/index.01f33615.js?_bid=1003906"></script></body><script>(function () {
+    var isStaging = ['staging2', '10', '192', '172'].some(x => location.origin.indexOf(x) > -1);
+    if (isStaging || location.href.indexOf('devtool') > -1) {
+      var src =
+        "https://auto.tancdn.com/v1/raw/d39d1ccb-9e30-4bef-ab0e-7e35058716c40300.js";
+      document.write("<scr" + 'ipt src="' + src + '"></scr' + "ipt>");
+      document.write("<scr" + "ipt>eruda.init();</scr" + "ipt>");
+      setTimeout(() => {
+        var script = document.createElement("script");
+        script.async = true;
+        script.src = "https://s.immomo.com/fep/momo/test-activity/mk-tools/tips-fep-new.js?_=" + new Date().getTime() * 1;
+        document.body.appendChild(script);
+      }, 3000)
+    }
+  })();
+  var globalThis = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};</script></html>

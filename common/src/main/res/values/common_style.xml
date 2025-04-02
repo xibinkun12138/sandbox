@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="common_text_style_title_01_a">
+    <item name="android:textSize">@dimen/common_text_size_title_01</item>
+    <item name="android:textColor">@color/common_white_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+  <style name="common_text_style_title_01_b_m">
+    <item name="android:textSize">@dimen/common_text_size_title_01</item>
+    <item name="android:textColor">@color/common_grey_01</item>
+    <item name="typeface">medium</item>
+  </style>
+
+  <style name="common_text_style_title_02_a">
+    <item name="android:textSize">@dimen/common_text_size_title_02</item>
+    <item name="android:textColor">@color/common_white_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+  <style name="common_text_style_title_02_b">
+    <item name="android:textSize">@dimen/common_text_size_title_02</item>
+    <item name="android:textColor">@color/common_grey_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+
+  <style name="common_text_style_body_01_a">
+    <item name="android:textSize">@dimen/common_text_size_body_01</item>
+    <item name="android:textColor">@color/common_white_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+  <style name="common_text_style_body_01_b">
+    <item name="android:textSize">@dimen/common_text_size_body_01</item>
+    <item name="android:textColor">@color/common_grey_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+  <style name="common_text_style_body_01_b_m">
+    <item name="android:textSize">@dimen/common_text_size_body_01</item>
+    <item name="android:textColor">@color/common_grey_01</item>
+    <item name="typeface">medium</item>
+  </style>
+
+  <style name="common_text_style_body_01_d">
+    <item name="android:textSize">@dimen/common_text_size_body_01</item>
+    <item name="android:textColor">@color/common_grey_02</item>
+    <item name="typeface">regular</item>
+  </style>
+
+
+  <style name="common_text_style_body_02_d_m">
+    <item name="android:textSize">@dimen/common_text_size_body_02</item>
+    <item name="android:textColor">@color/common_grey_02</item>
+    <item name="typeface">medium</item>
+  </style>
+
+
+  <style name="common_text_style_body_02_a">
+    <item name="android:textSize">@dimen/common_text_size_body_02</item>
+    <item name="android:textColor">@color/common_white_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+  <style name="common_text_style_body_02_c">
+    <item name="android:textSize">@dimen/common_text_size_body_02</item>
+    <item name="android:textColor">@color/common_origin_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+
+  <style name="common_text_style_caption_01_a">
+    <item name="android:textSize">@dimen/common_text_size_caption_01</item>
+    <item name="android:textColor">@color/common_white_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+  <style name="common_text_style_caption_01_b">
+    <item name="android:textSize">@dimen/common_text_size_caption_01</item>
+    <item name="android:textColor">@color/common_grey_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+  <style name="common_text_style_caption_02_a">
+    <item name="android:textSize">@dimen/common_text_size_caption_02</item>
+    <item name="android:textColor">@color/common_white_01</item>
+    <item name="typeface">regular</item>
+  </style>
+
+
+  <style name="common_page_circle_indicator_light">
+    <item name="fillColor">#a6000000</item>
+    <item name="pageColor">#26000000</item>
+    <item name="radius">3dp</item>
+  </style>
+
+  <style name="common_page_circle_indicator_dark">
+    <item name="fillColor">#ffffff</item>
+    <item name="pageColor">#66ffffff</item>
+    <item name="radius">3dp</item>
+  </style>
+
+
+
+
+</resources>

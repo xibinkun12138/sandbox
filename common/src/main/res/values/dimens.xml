@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="common_dialog_background_dim_amount" format="float" type="dimen">0.5</item>
+  <dimen name="common_text_size_body_01">16sp</dimen>
+  <dimen name="common_text_size_body_02">14sp</dimen>
+
+  <dimen name="rect_corner_radius_large">6dp</dimen>
+  <dimen name="rect_corner_radius">4dp</dimen>
+  <dimen name="rect_corner_radius_small">2dp</dimen>
+  <dimen name="rect_corner_radius_oval">100dp</dimen>
+
+
+  <dimen name="common_icon_xx_small">16dp</dimen>
+  <dimen name="common_icon_x_small">24dp</dimen>
+  <dimen name="common_icon_small">32dp</dimen>
+  <dimen name="common_icon_medium">40dp</dimen>
+  <dimen name="common_icon_x_large">56dp</dimen>
+  <dimen name="common_icon_xx_large">64dp</dimen>
+  <dimen name="common_icon_xxx_large">72dp</dimen>
+  <dimen name="common_title_bar_height">58dp</dimen>
+</resources>

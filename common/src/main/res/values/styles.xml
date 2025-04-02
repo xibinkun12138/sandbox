@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Theme.AppCompat.Light.Dialog.Alert.Roundedbig.Transparent" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:windowBackground">
+      @drawable/abc_dialog_material_transparent_background_roundedbig
+    </item>
+    <item name="android:backgroundDimAmount">@dimen/common_dialog_background_dim_amount
+    </item>
+  </style>
+
+  <style name="Theme.AppCompat.Light.Dialog.Alert.Roundedbig" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:windowBackground">@drawable/abc_dialog_material_background_roundedbig
+    </item>
+    <item name="android:backgroundDimAmount">@dimen/common_dialog_background_dim_amount
+    </item>
+  </style>
+
+  <style name="Theme.AppCompat.Light.Dialog.Alert.PopUp.Big" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:windowBackground">@drawable/common_view_popup_bg_window_big</item>
+    <item name="android:backgroundDimAmount">@dimen/common_dialog_background_dim_amount</item>
+  </style>
+
+  <style name="Theme.AppCompat.Light.Dialog.Alert.PopUp" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:windowBackground">@drawable/common_view_popup_bg_window</item>
+    <item name="android:backgroundDimAmount">@dimen/common_dialog_background_dim_amount</item>
+  </style>
+</resources>

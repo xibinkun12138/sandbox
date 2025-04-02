@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="common_black_01">#E5000000</color>
+  <color name="common_black_02">#CC000000</color>
+  <color name="common_black_03">#B2000000</color>
+  <color name="common_black_04">#99000000</color>
+  <color name="common_grey_01">#7F000000</color>
+  <color name="common_grey_02">#65000000</color>
+  <color name="common_grey_03">#4C000000</color>
+  <color name="common_grey_04">#32000000</color>
+  <color name="common_light_01">#25000000</color>
+  <color name="common_light_02">#19000000</color>
+  <color name="common_light_03">#0C000000</color>
+  <color name="common_light_04">#07000000</color>
+  <color name="common_orange">#FE7E1D</color>
+  <color name="common_orange_02">#FF6244</color>
+  <color name="common_red">#FF6464</color>
+  <color name="common_pink">#FF4798</color>
+  <color name="common_yellow">#FFBB00</color>
+  <color name="common_blue">#54C7FC</color>
+  <color name="common_green">#42FF15</color>
+  <color name="common_purple">#BE73FF</color>
+  <color name="common_toast_bg">#212121</color>
+  <color name="common_bubble_window_bg">#00000000</color>
+  <color name="common_black_80">#cc000000</color>
+  <color name="common_btn_gray">#1C1C1D</color>
+
+
+  <color name="app_title_color">#CCFFFFFF</color>
+  <color name="tf_trans_light">#18000000</color>
+  <color name="tantan_orange">@color/common_orange</color>
+  <color name="tf_trans_dark">#18ffffff</color>
+  <color name="common_white_01">#FFFFFF</color>
+  <color name="common_origin_01">#D34530</color>
+  <color name="transparent">#00000000</color>
+  <color name="black">#FF000000</color>
+  <color name="white">#FFFFFFFF</color>
+  <color name="common_white">#ffffff</color>
+  <color name="purple">#5F2F5E</color>
+  <color name="app_theme_color">#0B0B0B</color>
+  <color name="app_dialog">#4ED4BD</color>
+  <color name="app_dialog_bg">#232827</color>
+
+  <array name="app_dialog_colors">
+    <item>@color/app_dialog</item>
+  </array>
+
+</resources>

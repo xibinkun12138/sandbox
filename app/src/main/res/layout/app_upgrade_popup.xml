@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/shape_detail_input">
+
+  <ImageView
+    android:id="@+id/img_close"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="12dp"
+    android:src="@drawable/icon_close" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/img_close"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center_horizontal"
+      android:text="@string/new_version_popup_title"
+      android:textColor="@color/white_80_opacity"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+
+    <TextView
+      android:id="@+id/content"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="18dp"
+      android:lineSpacingExtra="1dp"
+      android:paddingLeft="15dp"
+      android:paddingRight="15dp"
+      android:textColor="@color/white_80_opacity"
+      android:textSize="14sp" />
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:orientation="vertical"
+      android:paddingBottom="20dp">
+
+      <Button
+        android:id="@+id/btn_agree"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:background="@drawable/shape_btn_bg"
+        android:gravity="center"
+        android:text="@string/new_version_upgrade_confirm"
+        android:textColor="#101010"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+      <TextView
+        android:id="@+id/tv_disagree"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="@string/new_version_upgrade_cancel"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>

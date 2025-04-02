@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, ' sans-serif';
+}
+#main-content {
+  padding: 16px 24px;
+}
+.text-underline {
+  text-decoration: underline;
+}
+
+dt {
+  padding: 1rem 0 0 0;
+  color: #666666;
+}
+
+dt b {
+    color: #d74e3c;
+    font-size: 30px;
+    line-height: 46px;
+    font-family: "微软雅黑";
+    font-weight: 500;
+}
+.table-wrapper {
+  width: 100%;
+  overflow-x: scroll;
+}
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+ul.ul-no-style {
+  list-style: none;
+}
+h3 {
+  margin: 20px 0 10px;
+}

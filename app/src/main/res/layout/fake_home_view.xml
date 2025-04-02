@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/primary_dark">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+      android:id="@+id/toolbar_layout"
+      layout="@layout/view_toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <com.hello.sandbox.view.pager2banner.Banner
+      android:id="@+id/fake_home_banner"
+      android:layout_width="match_parent"
+      android:layout_height="160dp" />
+
+    <include
+      android:id="@+id/il_fake_home_center_layout"
+      layout="@layout/home_center_layout" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="40dp"
+      android:text="全部应用"
+      android:textColor="@color/white_80_opacity"
+      android:textSize="16sp" />
+
+    <include
+      android:id="@+id/il_fake_home_item"
+      layout="@layout/home_item_app"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="bottom"
+    android:background="@color/bottom_dark"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+      android:id="@+id/rl_home"
+      android:layout_width="0dp"
+      android:layout_height="32dp"
+      android:layout_weight="1"
+      android:gravity="center">
+
+      <ImageView
+        android:id="@+id/image_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/bottom_tab_home_selected" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:layout_width="0dp"
+      android:layout_height="47dp"
+      android:layout_weight="1"
+      android:gravity="center">
+
+      <ImageView
+        android:id="@+id/image_add"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:src="@drawable/bottom_tab_add" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/rl_me"
+      android:layout_width="0dp"
+      android:layout_height="32dp"
+      android:layout_weight="1"
+      android:gravity="center">
+
+      <ImageView
+        android:id="@+id/image_me"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/bottom_tab_me_unselected" />
+    </RelativeLayout>
+  </LinearLayout>
+
+</FrameLayout>

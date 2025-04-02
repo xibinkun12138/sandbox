@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="choose">Choose</string>
+  <string name="choose_app">Choose App</string>
+  <string name="installed_app">Installed App</string>
+  <string name="installed_module">Installed Module</string>
+  <string name="empty_empty">Empty</string>
+  <string name="filter">Filter</string>
+  <string name="open_source_path">Open Source</string>
+  <string name="xp_setting">Xposed Setting</string>
+  <string name="tg_group">Telegram Group</string>
+  <string name="fake_location">Fake Location(Preview)</string>
+  <string name="real_location">Real Location</string>
+  <string name="set_location">Set Fake Location Successfully:%s-%s</string>
+  <string name="close_fake_location">Disable FakeLocation</string>
+  <string name="close_app_fake_location">Disable FakeLocation for %s</string>
+  <string name="close_fake_location_success">Disable FakeLocation for %s Successfully</string>
+  <string name="setting">Setting</string>
+  <string name="jump_module">Go to Module Manager</string>
+  <string name="module_setting">Module Manager</string>
+  <string name="enable_xposed">Enable Xposed Framework</string>
+  <string name="hider">Hide</string>
+  <string name="hide_root">Hide Root</string>
+  <string name="hide_xposed">Hide Xposed</string>
+  <string name="userRemark">User Remark</string>
+  <string name="done">Done</string>
+  <string name="cancel">Cancel</string>
+  <string name="permission_setting">Setting</string>
+  <string name="no_reminders">No Reminders</string>
+  <string name="app_stop">Stop Running</string>
+  <string name="app_stop_hint">Do you want to stop %s forcibly?</string>
+  <string name="is_stop">%s is Stopped</string>
+  <string name="app_clear">Clear Data</string>
+  <string name="app_clear_hint">Clear Data for %s?</string>
+  <string name="app_remove">Uninstall App</string>
+  <string name="app_shortcut">Create Shortcut</string>
+  <string name="shortcut_name">Shortcut Name</string>
+  <string name="try_add_shortcut">Try Added To Desktop</string>
+  <string name="add_shortcut_fail_msg">If the addition fails, please go to system settings and open the permission of "create desktop shortcut" for BlackBox</string>
+  <string name="install_success">Installed Successfully</string>
+  <string name="install_fail">Installed Failed: %s</string>
+  <string name="install_fail_no_msg">Installed Failed</string>
+  <string name="uninstall_success">Uninstalled Successfully</string>
+  <string name="uninstall_fail">Uninstalled Failed</string>
+  <string name="uninstall_app">Uninstall App</string>
+  <string name="uninstall_app_hint">Uninstall %s, and relevant data will be cleared after uninstallation?</string>
+  <string name="uninstall_module">Uninstall Module</string>
+  <string name="uninstall_module_hint">Do you want to uninstall this module? It will no longer work after uninstallation?</string>
+  <string name="remove_success">Removed Successfully</string>
+  <string name="clear_success">Cleared Successfully</string>
+  <string name="start_fail">Launched Failed</string>
+  <string name="start_in_outside">Start module in outside</string>
+  <string name="restart_module">Restart app to apply change</string>
+  <string name="cannot_create_shortcut">This desktop does not support creating shortcuts</string>
+  <string name="uninstall_module_toast">Please uninstall the xposed module in the Module Manager</string>
+  <string name="other">Others</string>
+  <string name="daemon_enable">Daemon</string>
+  <string name="gms_manager">GMS Manager</string>
+  <string name="jump_gms">Go to Gms Manager</string>
+  <string name="enable_gms">Enable Service</string>
+  <string name="enable_gms_hint">Opening Google services can make youtube and other software that strongly rely on Google play services run normally.</string>
+  <string name="disable_gms">Disable Service</string>
+  <string name="disable_gms_hint">Clear the current Google service environment? Google service data will be cleared.</string>
+  <string name="no_gms">Currently, there is no Google service environment on mobile phones.</string>
+
+  <string name="about">关于我们</string>
+  <string name="PRIVACY_POLICY_DLG_USER_AGREEMENT">《用户协议》</string>
+  <string name="PRIVACY_POLICY_DLG_PRIVACY_POLICY">《隐私政策》</string>
+  <string name="PRIVACY_POLICY_DLG_FIRST_CONTENT_WITH_LINK">在你使用秘盒空间前，请认真阅读并了解%1$s和%2$s，点击同意即表示你已阅读并同意全部条款。</string>
+
+  <string name="password_setting">密码设置</string>
+  <string name="password_setting_btn_text">设置密码</string>
+  <string name="password_setting_change">更换密码</string>
+  <string name="password_setting_tip">只需简单设置4位数密码，就可以开启专属自己的私密空间。设置完成后，每次进入应用需要输入密码验证，保证您的隐私安全。</string>
+  <string name="input_password">请输入4位数密码</string>
+  <string name="input_password_tip">启动APP时设置密码开启自己的专属空间</string>
+  <string name="input_password_again">再次输入4位数密码</string>
+  <string name="input_password_error">两次输入的密码不一致，请重新输入</string>
+  <string name="input_password_success">密码设置成功，现在输入密码继续体验吧</string>
+  <string name="change_app_icon">替换桌面图标</string>
+  <string name="change_app_icon_tip">设置【应用名称】在手机桌面展示的图标和名称，加一层伪装更安全</string>
+  <string name="change_app_icon_toast">更换图标前请先设置密码</string>
+
+  <string name="add_app">添加应用</string>
+  <string name="uninstall_cancel">暂不</string>
+  <string name="uninstall_confirm">卸载</string>
+
+  <string name="clear_cancel">暂不</string>
+  <string name="clear_confirm">清除</string>
+
+  <string name="stop_app_cancel">暂不</string>
+  <string name="stop_app_confirm">停止运行</string>
+
+  <string name="install_description">是否将%s导入，进行隐藏/双开</string>
+  <string name="install_concel">取消</string>
+  <string name="install_confirm">确认</string>
+
+  <string name="hide_guide_title_1">如何隐藏应用 第一步导入</string>
+  <string name="hide_guide_title_2">如何隐藏应用 第二步启动</string>
+  <string name="hide_guide_title_3">如何隐藏应用 第三步卸载</string>
+  <string name="hide_guide_description_1">点击添加应用，将需要隐藏的应用导入秘盒空间</string>
+  <string name="hide_guide_description_2">在秘盒空间启动导入应用的副本 \n确保其可以正常工作</string>
+  <string name="hide_guide_description_3">从桌面中卸载需要隐藏的应用以完成隐藏</string>
+
+  <string name="logout_popup_title">再次确认是否注销本账户</string>
+  <string name="logout_popup_description">注销后您在本账号上的所有数据和特权将永久消失，请谨慎操作！</string>
+  <string name="logout_popup_confirm">确认注销</string>
+  <string name="logout_popup_cancel">取消</string>
+
+  <string name="prompt_popup_title">温馨提示</string>
+  <string name="prompt_popup_description">亲，要不再想想?</string>
+  <string name="prompt_popup_confirm">再次查看</string>
+  <string name="prompt_popup_cancel">浏览模式</string>
+
+  <string name="screen_close_message">已关闭屏幕翻转退出功能</string>
+  <string name="screen_open_message">已成功开启</string>
+  <string name="screen_open">开启翻转退出</string>
+  <string name="screen_close">关闭翻转退出</string>
+
+  <string name="most_used_app">常用软件</string>
+  <string name="install_repeatedly_message">应用已安装，请不要重复添加</string>
+  <string name="install_compatible_message">发现兼容问题，请卸载并重新从应用商店安装%s或联系客服解决</string>
+
+  <string name="about_check_new_version">检查新版本</string>
+  <string name="about_user_agreement">用户协议</string>
+  <string name="about_policy">隐私政策</string>
+  <string name="ALREADY_NEWEST_VERSION">当前已是最新版本</string>
+  <string name="ABOUT_VERSION">版本: v%s</string>
+  <string name="new_version_popup_title">新版本提示</string>
+  <string name="new_version_upgrade_confirm">立即更新</string>
+  <string name="new_version_upgrade_cancel">暂不更新</string>
+
+  <string name="UPDATE_GO_TO_MARKET">应用商店</string>
+
+</resources>

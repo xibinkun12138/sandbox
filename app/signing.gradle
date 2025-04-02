@@ -1,0 +1,12 @@
+android {
+    signingConfigs {
+        release {
+            storeFile file(gradle.ext.sign_storeFile)
+            storePassword gradle.ext.sign_storePassword
+            keyAlias gradle.ext.sign_keyAlias
+            keyPassword gradle.ext.sign_keyPassword
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+}

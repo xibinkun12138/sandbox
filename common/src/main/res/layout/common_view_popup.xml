@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:id="@+id/popup_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <v.pushbubble.VFrame
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <v.VLinear
+        android:id="@+id/popup_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <v.VImage
+          android:id="@+id/popup_image"
+          android:layout_width="match_parent"
+          android:layout_height="184dp"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="8dp"
+          android:layout_marginBottom="8dp"
+          android:scaleType="center" />
+
+        <Space
+          android:id="@+id/popup_top_space"
+          android:layout_width="match_parent"
+          android:layout_height="32dp"
+          android:visibility="gone"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+        <v.pushbubble.VFrame
+          android:id="@+id/popup_custom_root"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+        <v.VText
+          android:id="@+id/popup_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginLeft="32dp"
+          android:layout_marginRight="32dp"
+          android:ellipsize="end"
+          android:gravity="center"
+          android:maxLines="2"
+          android:textColor="@color/common_black_01"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          tools:text="真人实名认证" />
+
+        <v.VText
+          android:id="@+id/popup_subtitle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginLeft="32dp"
+          android:layout_marginTop="4dp"
+          android:layout_marginRight="32dp"
+          android:layout_marginBottom="16dp"
+          android:gravity="center"
+          android:lineSpacingMultiplier="1.2"
+          android:textColor="@color/common_grey_02"
+          android:textSize="14sp"
+          tools:text="完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心完成真人实名认证，享受更多特权，交流更放心" />
+
+        <LinearLayout
+          android:id="@+id/checkbox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/tv_content"
+          android:layout_marginBottom="12dp"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:visibility="gone"
+          tools:visibility="visible">
+
+          <v.VCheckBox
+            android:id="@+id/check"
+            style="@style/common_checkbox"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:button="@null"
+            android:checked="false" />
+
+          <TextView
+            android:id="@+id/reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="4dp"
+            android:text="不再提示"
+            android:textColor="@color/common_grey_04"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+      </v.VLinear>
+
+      <v.VLinear
+        android:id="@+id/popup_pagers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <androidx.viewpager.widget.ViewPager
+          android:id="@+id/popup_pager"
+          android:layout_width="match_parent"
+          android:layout_height="256dp"
+          android:clipChildren="false"
+          android:clipToPadding="false"
+          android:overScrollMode="never" />
+
+        <v.VPagerCircleIndicator
+          android:id="@+id/popup_indicator"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginLeft="32dp"
+          android:layout_marginRight="32dp"
+          android:layout_marginBottom="16dp"
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          app:fillColor="@color/common_orange"
+          app:pageColor="@color/common_light_02"
+          app:radius="3.5dp" />
+
+      </v.VLinear>
+
+    </v.pushbubble.VFrame>
+
+    <v.VButton
+      android:id="@+id/popup_positive_primary_button"
+      style="@style/common_button_large_01"
+      android:layout_marginLeft="32dp"
+      android:layout_marginRight="32dp"
+      android:ellipsize="end"
+      android:lines="1"
+      tools:text="立即认证" />
+
+    <v.VButton
+      android:id="@+id/popup_positive_secondary_button"
+      style="@style/common_button_large_01"
+      android:layout_marginLeft="32dp"
+      android:layout_marginTop="12dp"
+      android:layout_marginRight="32dp"
+      android:ellipsize="end"
+      android:lines="1"
+      tools:text="我知道了" />
+
+    <v.VText
+      android:id="@+id/popup_negative"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginLeft="32dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginRight="32dp"
+      android:layout_marginBottom="16dp"
+      android:gravity="center"
+      android:padding="8dp"
+      android:textColor="@color/common_grey_04"
+      android:textSize="14sp"
+      tools:text="稍后再说" />
+
+    <Space
+      android:id="@+id/popup_bottom_space"
+      android:layout_width="match_parent"
+      android:layout_height="32dp" />
+
+  </LinearLayout>
+
+  <v.VText
+    android:id="@+id/popup_bottom_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:gravity="center"
+    android:lineSpacingMultiplier="1.2"
+    android:textColor="@color/common_grey_02"
+    android:textSize="12sp"
+    tools:text="稍后再说" />
+
+</LinearLayout>

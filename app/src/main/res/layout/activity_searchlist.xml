@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".view.list.ListActivity">
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <v.navigationbar.VNavigationBar
+      android:id="@+id/vnNavigationbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:leftIcon="@drawable/common_navigation_back"
+      app:title="@string/add_app" />
+
+    <com.ferfalk.simplesearchview.SimpleSearchView
+      android:id="@+id/searchView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/primary"
+      android:visibility="gone"
+      app:type="card" />
+
+  </FrameLayout>
+
+  <include
+    android:id="@+id/header"
+    layout="@layout/search_header"
+    android:visibility="visible" />
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark">
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <com.hello.sandbox.view.SideBarLayout
+      android:id="@+id/sidebar"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:sidebarSelectTextColor="@color/white_70_opacity"
+      app:sidebarSelectTextSize="12sp"
+      app:sidebarUnSelectTextColor="@color/white_70_opacity"
+      app:sidebarUnSelectTextSize="12sp"
+      app:sidebarWordBackground="@drawable/sort_text_bg"
+      app:sidebarWordTextColor="@color/white_70_opacity"
+      app:sidebarWordTextSize="45sp" />
+  </FrameLayout>
+
+</LinearLayout>

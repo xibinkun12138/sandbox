@@ -1,0 +1,28 @@
+include ':Bcore'
+include ':app'
+include ':Bcore:black-fake'
+include ':Bcore:black-hook'
+include ':Bcore:pine-xposed'
+include ':Bcore:pine-core'
+include ':Bcore:pine-xposed-res'
+include ':android-mirror'
+include ':common'
+include ':network'
+include ':xpopup'
+
+rootProject.name = "SandBox"
+include ':calc'
+
+def properties = new Properties()
+def inputStream = file('app/local.properties').newDataInputStream()
+properties.load(inputStream)
+gradle.ext.sign_storeFile = properties.getProperty('sign_storeFile')
+gradle.ext.sign_storePassword = properties.getProperty('sign_storePassword')
+gradle.ext.sign_keyAlias = properties.getProperty('sign_keyAlias')
+gradle.ext.sign_keyPassword = properties.getProperty('sign_keyPassword')
+gradle.ext.upgrade_url_debug = properties.getProperty('upgrade_url_debug')
+gradle.ext.upgrade_url_release = properties.getProperty('upgrade_url_release')
+gradle.ext.app_id_debug = properties.getProperty('app_id_debug')
+gradle.ext.app_id_release = properties.getProperty('app_id_release')
+gradle.ext.app_secret_debug = properties.getProperty('app_secret_debug')
+gradle.ext.app_secret_release = properties.getProperty('app_secret_release')

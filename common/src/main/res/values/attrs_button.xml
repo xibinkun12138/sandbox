@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- These top three attributes are not accessible to library users -->
+  <declare-styleable name="VButton">
+    <attr format="dimension" name="buttonIconLeftSize" />
+    <attr format="dimension" name="buttonIconRightSize" />
+    <attr format="dimension" name="buttonIconTopSize" />
+    <attr format="dimension" name="buttonIconBottomSize" />
+    <attr name="android:drawableLeft" />
+    <attr name="android:drawableRight" />
+    <attr name="android:drawableTop" />
+    <attr name="android:drawableBottom" />
+    <attr format="boolean" name="buttonIconFollowContentCenter" />
+  </declare-styleable>
+
+
+</resources>

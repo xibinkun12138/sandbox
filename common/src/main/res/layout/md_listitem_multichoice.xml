@@ -1,0 +1,41 @@
+<v.VLinear xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:descendantFocusability="blocksDescendants"
+  android:gravity="center_vertical|start"
+  android:orientation="horizontal">
+
+  <v.VCheckBox
+    android:id="@+id/control"
+    style="@style/v_checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:layout_marginStart="@dimen/md_listitem_control_margin"
+    android:layout_marginLeft="@dimen/md_listitem_control_margin"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@null"
+    android:clickable="false"
+    android:duplicateParentState="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/md_listitem_height" />
+
+  <v.VText
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:layout_marginEnd="@dimen/md_dialog_frame_margin"
+    android:layout_marginRight="@dimen/md_dialog_frame_margin"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/md_listitem_height"
+    android:textAppearance="@style/common_text_style_body_01_b"
+    app:typeface="regular"
+    tools:text="Item" />
+
+</v.VLinear>

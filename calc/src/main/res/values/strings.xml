@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="text_zero">0</string>
+  <string name="text_dec">十进制</string>
+  <string name="text_oct">八进制</string>
+  <string name="text_bin">二进制</string>
+  <string name="text_hex">十六进制</string>
+  <string name="text_text_too_long">字符过长不能显示，请点击菜单>显示完整</string>
+  <string name="text_error">错误</string>
+  <string name="text_auto_bc_error">数值超出运算范围</string>
+  <string name="text_mode_expand">科学</string>
+  <string name="text_mode_programmer">程序员</string>
+  <string name="text_use_deg">当前使用角度制</string>
+  <string name="text_use_rad">当前使用弧度制</string>
+  <string name="action_cancel">取消</string>
+  <string name="title_choose_mode">选择模式</string>
+  <string name="title_calc_exception">Oops！计算模块发生了异常</string>
+  <string name="text_mode_normal">标准</string>
+  <string name="text_title">标题</string>
+  <string name="action_ok">确定</string>
+  <string name="text_calculator">计算器</string>
+
+</resources>

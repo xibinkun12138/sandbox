@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<v.VLinear xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/app_theme_color"
+  android:orientation="vertical"
+  tools:context="com.hello.sandbox.ui.screen.ScreenOrientationActivity">
+
+  <v.navigationbar.VNavigationBar
+    android:id="@+id/vn_navigationbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:leftIcon="@drawable/common_navigation_back" />
+
+  <v.VLinear
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="@color/app_theme_color"
+    tools:context="com.hello.sandbox.ui.password.SettingPasswordActivity">
+
+
+    <v.VText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:alpha="0.7"
+      android:gravity="center"
+      android:text="屏幕翻转退出"
+      android:textColor="@color/white"
+      android:textSize="22sp" />
+
+    <v.VText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="7dp"
+      android:alpha="0.7"
+      android:gravity="center"
+      android:paddingLeft="40dp"
+      android:paddingRight="40dp"
+      android:text="开启后翻转手机屏幕，直接关闭应用并返回系统桌面，隐私安全更有保障"
+      android:textColor="#AAAAAA"
+      android:textSize="14sp" />
+
+    <v.VImage
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="120dp"
+      android:src="@drawable/screen_orientation" />
+
+
+    <View
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_weight="1" />
+
+    <v.VButton
+      android:id="@+id/btn_open_icon"
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginBottom="50dp"
+      android:background="@drawable/shape_color_3ec0aa_32"
+      android:gravity="center"
+      android:text="关闭"
+      android:textColor="#000000"
+      android:textSize="16sp" />
+  </v.VLinear>
+
+
+</v.VLinear>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:parentTag="v.VFrame">
+
+  <v.VLinear
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <v.VFrame
+      android:id="@+id/left_icon_container"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="4dp"
+      android:visibility="gone"
+      tools:background="@color/common_red"
+      tools:layout_height="32dp"
+      tools:layout_width="32dp"
+      tools:visibility="visible" />
+
+    <v.VFrame
+      android:id="@+id/title_container"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      tools:background="@color/common_green"
+      tools:layout_height="32dp"
+      tools:layout_width="wrap_content"
+      tools:visibility="visible" />
+
+    <v.VLinear
+      android:id="@+id/right_icon_container"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="4dp"
+      android:gravity="center_vertical|right"
+      android:orientation="horizontal"
+      android:visibility="gone"
+      tools:background="@color/common_blue"
+      tools:layout_height="32dp"
+      tools:layout_width="72dp"
+      tools:visibility="visible" />
+
+  </v.VLinear>
+
+</merge>

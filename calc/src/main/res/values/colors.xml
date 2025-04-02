@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="conversion_bg">#FAF7F7</color>
+  <color name="show_screen_display_color">#ff46494d</color>
+  <color name="colorTransparent">#00000000</color>
+  <color name="calvertical_view_background">#ffffffff</color>
+  <color name="btn_pad_last_s_p">#0f000000</color>
+  <color name="btn_pad_border">#ffffffff</color>
+  <color name="btn_pad_number_bg_n">#ffffffff</color>
+  <color name="btn_pad_last_s_n">#0a000000</color>
+  <color name="btn_pad_symbol">#ff7c7d82</color>
+  <color name="btn_equal_circle_n">#ffff7433</color>
+  <color name="btn_pad_number_d">#4d595d66</color>
+  <color name="btn_pad_number_n">#cc000000</color>
+  <color name="btn_equal_circle_p">#ffed6b2e</color>
+  <color name="tab_text_color_selected">#ffff7433</color>
+</resources>

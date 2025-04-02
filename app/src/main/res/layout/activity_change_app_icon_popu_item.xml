@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="75dp"
+  android:layout_height="match_parent"
+  android:background="@drawable/shape_change_icon_selector">
+
+  <ImageView
+    android:id="@+id/img_app_icon"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:src="@drawable/splash_icon" />
+
+  <v.VText
+    android:id="@+id/tv_app_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="@dimen/dp_10"
+    android:text="初始"
+    android:textColor="@color/color_3EC0AA"
+    android:textSize="13dp"
+    android:textStyle="bold" />
+
+  <v.VText
+    android:id="@+id/tv_status"
+    android:layout_width="30dp"
+    android:layout_height="15dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="11dp"
+    android:layout_marginRight="11dp"
+    android:background="@drawable/shape_color_3ec0aa_9"
+    android:gravity="center"
+    android:text="当前"
+    android:textColor="@color/white"
+    android:textSize="@dimen/dp_10" />
+</RelativeLayout>

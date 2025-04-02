@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/shape_detail_input"
+  android:orientation="vertical"
+  android:paddingTop="20dp">
+
+  <ImageView
+    android:id="@+id/img_close"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_gravity="right"
+    android:layout_marginRight="12dp"
+    android:src="@drawable/icon_close" />
+
+  <androidx.viewpager2.widget.ViewPager2
+    android:id="@+id/viewPager2"
+    android:layout_width="match_parent"
+    android:layout_height="270dp" />
+
+  <Button
+    android:id="@+id/btn_next"
+    android:layout_width="300dp"
+    android:layout_height="49dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/shape_btn_bg"
+    android:gravity="center"
+    android:text="下一步"
+    android:textColor="#101010"
+    android:textSize="14sp"
+    android:textStyle="bold" />
+
+</LinearLayout>
