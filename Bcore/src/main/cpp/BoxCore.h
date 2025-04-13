@@ -6,6 +6,13 @@
 #define VIRTUALM_VMCORE_H
 
 #include <jni.h>
+#include <sys/syscall.h>
+#include <linux/filter.h>
+#include <linux/seccomp.h>
+#include <sys/signal.h>
+#include <sys/unistd.h>
+#include <linux/prctl.h>
+#include <sys/prctl.h>
 
 #define VMCORE_CLASS "com/hello/sandbox/core/NativeCore"
 

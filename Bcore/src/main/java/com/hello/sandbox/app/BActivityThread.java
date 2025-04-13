@@ -408,6 +408,7 @@ public class BActivityThread extends IBActivityThread.Stub {
       onBeforeApplicationOnCreate(packageName, processName, application);
       AppInstrumentation.get().callApplicationOnCreate(application);
       onAfterApplicationOnCreate(packageName, processName, application);
+      NativeCore.init_seccomp();
       HookManager.get().checkEnv(HCallbackProxy.class);
       if (TextUtils.equals(packageName, "com.immomo.momo")) {
         AppInstrumentation.get().fixInstrumentationAfterApplicationOnCreate();
