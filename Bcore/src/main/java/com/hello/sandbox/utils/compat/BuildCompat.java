@@ -28,6 +28,12 @@ public class BuildCompat {
   }
 
   // 12
+  public static boolean isOnlyS() {
+    int i = Build.VERSION.SDK_INT;
+    return i == 31 || (i == 30 && "S".equals(Build.VERSION.CODENAME));
+  }
+
+  // 12
   public static boolean isS() {
     return Build.VERSION.SDK_INT >= 31
         || (Build.VERSION.SDK_INT >= 30 && Build.VERSION.PREVIEW_SDK_INT == 1);
