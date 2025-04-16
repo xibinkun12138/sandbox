@@ -63,7 +63,7 @@ class WebviewAct : BaseAct() {
     settings.builtInZoomControls = true
     settings.displayZoomControls = false
     settings.cacheMode = WebSettings.LOAD_NO_CACHE
-    settings.setAppCacheEnabled(true)
+//    settings.setAppCacheEnabled(true)
     settings.domStorageEnabled = true
     settings.loadsImagesAutomatically = true
     settings.blockNetworkImage = false
